@@ -1,7 +1,7 @@
 package webpage
 
 import (
-	"autify/v1/models"
+	"github.com/Gifted-s/autify-cli/models"
 	"encoding/json"
 	"fmt"
 	"github.com/fatih/color"
@@ -186,7 +186,7 @@ func saveMetaToDisk(meta models.WebPage) error {
 	if err != nil {
 		return err
 	}
-	
+
 	var pages map[string]models.WebPage
 	err = json.Unmarshal(byteValue, &pages)
 	if err != nil {

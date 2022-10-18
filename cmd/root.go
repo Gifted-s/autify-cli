@@ -5,8 +5,8 @@ Copyright © 2022 NAME HERE <EMAIL ADDRESS>
 package cmd
 
 import (
-	"autify/v1/models"
-	"autify/v1/pkg"
+	"github.com/Gifted-s/autify-cli/models"
+	"github.com/Gifted-s/autify-cli/pkg"
 	"fmt"
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"

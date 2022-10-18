@@ -4,7 +4,7 @@ Copyright © 2022 NAME HERE <EMAIL ADDRESS>
 */
 package main
 
-import "autify/v1/cmd"
+import "github.com/Gifted-s/autify-cli/cmd"
 
 func main() {
 	cmd.Execute()

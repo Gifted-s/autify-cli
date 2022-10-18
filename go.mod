@@ -1,4 +1,4 @@
-module autify/v1
+module github.com/Gifted-s/autify-cli
 
 go 1.17
 
