@@ -21,7 +21,7 @@ var rootCmd = &cobra.Command{
 	Short: "Download web page locally",
 	Long:  "With fetch, you can download web pages from command line and also view web page metadata",
 	Run: func(cmd *cobra.Command, args []string) {
-		// Check is a metadata flag was passed
+		// Check if a metadata flag was passed
 		pageUrl, err := cmd.Flags().GetString("metadata")
 		if err != nil {
 			color.Red("Flag Error:  %s", err.Error())
