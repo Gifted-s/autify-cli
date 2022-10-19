@@ -3,8 +3,10 @@
 ## Overview
 Autify CLI helps download web pages and saves them to disk for future retrieval.
 ### Demo
-https://user-images.githubusercontent.com/52675260/196662546-5c91eec5-f540-425f-a6d9-5d1ed78599bb.mp4
 
+
+
+https://user-images.githubusercontent.com/52675260/196665785-2400d735-70b7-41dd-b3bc-70acf0c88017.mp4
 
 
 ## How to use
